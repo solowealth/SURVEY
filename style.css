@@ -120,6 +120,8 @@ button{
     color: white;
     font-size: 20px;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 #submit:hover{
