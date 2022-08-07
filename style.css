@@ -8,7 +8,8 @@ box-sizing: border-box;
     background-color: rgba(128, 128, 128, 0.658);
     margin-top: 50px;
     margin-left: 420px;
-    margin-right: 470px;    
+    margin-right: 470px; 
+    margin-bottom: 50px;
     border-radius: 15px;
 }
 
