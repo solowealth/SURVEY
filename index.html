@@ -4,71 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>SURVEY FORM</title>
 </head>
 <body>
-    <div>
-        <h1>Survey Form</h1>
-        <p><i>Thank you for taking your time to give us feedback</i></p>
-    </div>
+    <main class="main">
+        <div class="header-container">
+            <h1>Survey Form</h1>
+            <p class="header-text"><i>Thank you for taking your time to give us feedback</i></p>
+        </div>
+    
+        <div>
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" placeholder="Enter your name" />
+                </div><br>
+    
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="Enter Your Email" />
+                </div><br>
+    
+                <div class="form-group">
+                    <label for="age">Age</label><br>
+                    <input type="number" id="age" placeholder="Enter Your Age" />
+                </div><br>
+    
+                <div class="form-group">
+                    <p>Choose a role that best describes you</p>
+                    <select name="role" id="select">
+                        <br>
+                        <option value="select your role">Select your role</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div><br>
+    
+                <div class="form-group">
+                    <label for="recommend" class="">Would your recommend our product to a friend?</label><br>
+                    <div class="radio-group">
+                        <input type="radio"/>Never<br>
+                        <input type="radio" />Maybe<br>
+                        <input type="radio" />Likely<br>
+                        <input type="radio" />Definitely<br>
+                    </div><br>
 
-    <div>
-        <form>
-            <div>
-                <label for="name">Name</label><br>
-                <input type="text" id="name" placeholder="Enter your name" />
-            </div><br>
+                </div><br>
+    
+                <div class="form-group">
+                    <div class="select-text">
+                        <label for="select">Select the things that you like about our products</label><br>
+                    </div>
 
-            <div>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" placeholder="Enter Your Email" />
-            </div><br>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="" name="UL" value="UL" />
+                        <label for="UL" id="ul">UL</label><br>
+                        <input type="checkbox" id="" name="features" value="features" />
+                        <label for="features" id="features">Features</label><br>
+                        <input type="checkbox" id="" name="services" value="services" />
+                        <label for="services" id="services">Services</label><br>
+                        <input type="checkbox" id="" name="simpleness" value="simpleness" />
+                        <label for="simpleness" id="simpleness">Simpleness</label><br>
+                    </div>
 
-            <div>
-                <label for="age">Age</label><br>
-                <input type="number" id="age" placeholder="Enter Your Age" />
-            </div><br>
+                </div><br> 
+    
+                <div class="form-group">
+                    <label for="remarks" id="remarks-text">Remarks:</label><br>
+                    <textarea cols="40" id="remarks" placeholder="Tell us how can we improve"></textarea>
+                </div><br>
+    
+                <div class="form-group">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
 
-            <div>
-                <p>Choose a role that best describes you</p>
-                <select name="role" id="">
-                    <br>
-                    <option value="select your role">Select your role</option>
-                    <option value="beginner">Beginner</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="expert">Expert</option>
-                </select>
-            </div><br>
-
-            <div>
-                <label for="recommend">Would your recommend our product to a friend?</label><br>
-                <input type="radio" />Never<br>
-                <input type="radio" />Maybe<br>
-                <input type="radio" />Likely<br>
-                <input type="radio" />Definitely<br>
-            </div><br>
-
-            <div>
-                <label for="select">Select things that you like about our products</label><br>
-                <input type="checkbox" id="UL" name="UL" value="UL" />
-                <label for="UL">UL</label><br>
-                <input type="checkbox" id="features" name="features" value="features" />
-                <label for="features">Features</label><br>
-                <input type="checkbox" id="services" name="services" value="services" />
-                <label for="services">Services</label><br>
-                <input type="checkbox" id="simpleness" name="simpleness" value="simpleness" />
-                <label for="simpleness">Simpleness</label><br>
-            </div><br> 
-
-            <div>
-                <label for="remarks">Remarks:</label><br>
-                <textarea cols="40" id="remarks" placeholder="Tell us how can we improve"></textarea>
-            </div><br>
-
-            <div>
-                <button>Submit</button>
-            </div>
-        </form>
-    </div>
 </body>
 </html>

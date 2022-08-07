@@ -1,0 +1,127 @@
+*{
+margin: 0px;
+padding: 0%;
+box-sizing: border-box;
+}
+
+.main{
+    background-color: rgba(128, 128, 128, 0.658);
+    margin-top: 50px;
+    margin-left: 420px;
+    margin-right: 470px;    
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+p{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.header-text{
+    font-size: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.form-group{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 315px;
+}
+
+#name{
+
+    height: 30px;
+    width: 315px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+#email{
+
+    height: 30px;
+    width: 315px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+#age{
+
+    height: 30px;
+    width: 315px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+#select{
+    height: 30px;
+    width: 315px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 1px;
+}
+
+.select-text{
+
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.radio-group{
+
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+#ul{
+    line-height: 30px;
+}
+#features{
+    line-height: 30px;
+}
+
+#services{
+    line-height: 30px; 
+}
+
+#simpleness{
+    line-height: 30px;    
+}
+
+textarea{
+
+    height: 150px;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 5px;
+}
+
+button{
+
+    height: 40px;
+    width: 315px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgba(128, 128, 128, 0.393);
+}
